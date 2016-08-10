@@ -1,0 +1,126 @@
+body {
+  background-color: black;
+
+}
+
+.evolvelogo {
+
+  margin-top: -35%;
+}
+
+.landing {
+  height: 700px;
+  width: auto;
+}
+
+.redsection-headers {
+  margin: auto;
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-top: 60px;
+  color: white;
+  font-size: 60px;
+
+}
+
+.whitesection-headers {
+  margin: auto;
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-top: 60px;
+  color: black;
+  font-size: 60px;
+
+}
+
+
+
+/*NAVIGATION BAR*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*END OF NAVIGATION BAR*/
+
+
+
+/*WHAT WE DO SECTION*/
+
+.about {
+  background-color: #FF102D;
+  width: 100%;
+  height: 844px;
+}
+
+figure {
+  margin: auto;
+  width: 230px;
+  text-align: center;
+  color: white;
+  float: left;
+
+}
+
+.research {
+  margin: 50px;
+}
+
+.ux {
+  margin: 50px;
+}
+
+.engineer {
+  margin: 50px;
+}
+
+figcaption {
+  margin: auto;
+  width: 230px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.aboutboxes {
+  padding-left: 150px;
+  margin-top: 100px;
+
+}
+
+/*END*/
+
+
+/*CLIENT SECTION*/
+
+.clients {
+  background-color: white;
+  width: 100%;
+  height: 844px;
+}
+
+
+#one, #two, #three, #four, #five, #six {
+  display: inline-block;
+  width: 33%;
+  padding: 5%;
+}
